@@ -28,24 +28,45 @@
     </nav>
 
     <header id="home" class="hero">
+       <div class="hero-div">
         <h1 class="hero-header">
-           This is Sammy!
-        </h1>
-        <p class="hero-text">
-            I am Front-end Developer. Available to <a href="#contact" class="hire-me">hire</a>
-        </p>
+            This is Sammy!
+         </h1>
+         <p class="hero-text">
+             I am Front-end Developer. Available to <a href="#contact" class="hire-me">hire</a>
+         </p>
+       </div>
     </header>
     
-    <section id="about">
-        About me here!!
+    <section id="about" class="about-me">
+       <h2>About me!</h2>
+       <div class="about-div">
+        <p>I am Front-end Developer with 2 years for experience with 
+            Indian Company where I work in HTML, SCSS, JavaScript, Ajax, Jquery and PHP.
+         Currently I am learning Angular newer version Framework. 
+         I also have experience in Php framework like CodeIgnitor, Laravel.</p>
+       </div>
     </section>
-    <section id="project">
-        Projects here !!
+    
+    <section id="project" class="projects">
+        <h2>Projects</h2>
+        <p>Coming Soon !!</p>
     </section>
 
-
+<hr>
     <section id="contact">
-        <h2>Hire me or Contact me to know more about me.</h2>
+        <h2>Let's be in touch!!</h2>
+        <form action="">
+            <div class="form-layout">
+                <legend>Contact me here</legend>
+                <input type="email" name="email" id="email" placeholder="Enter your Email here" class="form-input">
+                <input type="text" name="name" id="name" placeholder="Enter Full Name here" class="form-input">
+                <textarea name="message" id="message" cols="30" rows="10">Your Thoughts!!</textarea>
+
+                <input type="submit" value="Send">
+            </div>
+        </form>
+
     </section>
     <script src="assets/js/main.js"></script>
 </body>

@@ -8,6 +8,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  font-family: monospace;
+}
+
 .navbar .nav-items {
   list-style: none;
   text-decoration: none;
@@ -17,11 +21,50 @@ body {
   text-decoration: none;
 }
 
-.hero .hero-header {
+.hero {
+  background: url(../images/bg.png) no-repeat center top;
+  height: 80vh;
+}
+
+.hero-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-div .hero-header {
   color: #fafafa;
 }
-.hero .hero-text .hire-me {
+.hero-div .hero-text .hire-me {
   color: #c7c7c7;
+}
+
+.about-me {
+  display: block;
+  margin: 20px;
+  padding: 20px;
+}
+.about-me h2 {
+  text-decoration: underline;
+}
+.about-me p {
+  border: 1px solid #fafafa;
+  padding: 2rem;
+  width: 50vw;
+  border-radius: 5rem;
+  font-size: 18px;
+}
+
+.projects {
+  margin: 20px;
+  padding: 20px;
+}
+
+#contact {
+  text-align: center;
+  background: #212121 no-repeat center bottom;
+  width: 100vw;
+  height: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */
